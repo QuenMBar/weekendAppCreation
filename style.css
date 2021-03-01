@@ -1,0 +1,75 @@
+body {
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #000000 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #000000 100%);
+    height:100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+#mainDiv {
+    padding: auto;
+    padding-top: 2vh;
+    border: 20px outset #1C6EA4;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align:center;
+
+}
+
+#startDiv {
+    text-align: center;
+}
+
+#displayText {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0;
+    font-size: larger;
+}
+
+#challengeStringCorrect {
+    margin: 0;
+    display: inline;
+    color: green;
+    font-family: "Arial Black",
+    Gadget,
+    sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#challengeStringInit {
+    margin: 0;
+    display: inline;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#typingBox {
+    margin: auto;
+    width: 20vw;
+    height: 5vh;
+}
